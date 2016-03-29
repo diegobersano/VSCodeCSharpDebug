@@ -1,0 +1,18 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "Debug ConsoleApplication",
+            "type": "mono",
+            "program": "${workspaceRoot}/Program.exe",
+            "args": [],
+            "env": {}
+        },
+        {
+            "name": "Attach",
+            "type": "mono",
+            "address": "localhost",
+            "port": 5858
+        }
+    ]
+}
